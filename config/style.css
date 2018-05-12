@@ -1,0 +1,110 @@
+body{
+
+}
+div.container{
+    width: 100%;
+    border: 1px solid gray;
+    background-color: black;
+}
+div.row-xls{
+    background-color: #F66271;
+    color: white;
+    height: 140px;
+    padding-top: 20px;
+}
+div.col-md-12 h1{
+    text-align: center;
+    line-height: 1;
+    font-family: arial;
+}
+div.col-md-12 h3,
+div.col-md-12 h5{
+    text-align: center;
+    line-height: 0.8;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    font-weight: bold;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: #F66170;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+li a:hover:not(.aktif) {
+    background-color: #F66270;
+}
+.aktif {
+    background-color: #5959E0;
+}
+div.runtext{
+    font-style: italic;
+    color: white;
+    background-color: black;
+    font-family: arial;
+    font-weight: bold;
+    padding-top: 30px;
+}
+div.col-md{
+    background-color: #FFF665;
+    color: black;
+    padding-top: 20px;
+    height: 400px;
+}
+div.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding-top: 10px;
+}
+div.content{
+    height: 400px;
+
+}
+div.halaman2{
+    text-align: center;
+    padding: 40px 10px;
+    line-height: 0.8;
+    font-weight: bold;
+}
+div.halaman1{
+    text-align: center;
+}
+div.halaman1 p{
+    font-size: 15px;
+    text-decoration: none;
+    text-align: justify-all;
+}
+tr, td{
+    height: 90px;
+    width: 500px;
+    padding-left: 60px;
+}
+td.submit{
+    background-color: green;
+    color: white;
+}
